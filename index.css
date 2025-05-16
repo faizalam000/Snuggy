@@ -2,13 +2,13 @@
     margin:0px;
     padding: 0;
     box-sizing: border-box;
-    background-color: f0f0f0;
 }
 #Navbar {
     background-color: white;
     margin: 10px;
    display: flex;
    justify-content: space-between;
+   
 }
 #Navbar img{
     height: 60px;
