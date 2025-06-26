@@ -29,7 +29,7 @@ const CardPage = () => {
     <div className="Cardpage">
       <div className="flex flex-wrap justify-around w-full ">
         <div className="ml-10">
-          <h1 className="text-5xl font-semibold" id="restrant">
+          <h1 className="text-8xl font-semibold" id="restrant">
             {cardData?.name}
           </h1>
           <h3 id="foodName">cuisines: {cardData?.cuisines.join(" ")}</h3>
@@ -43,7 +43,7 @@ const CardPage = () => {
       <div className="Cardbox_container">
         {Object.entries(cardData.items).map(([category, item], i) => {
           return (
-            <div key={i}>
+            <div key={i} >
               <div className="Cardbox_header">{category}</div>
               {item.map((ele) => {
                 const cartItemQty = cartItem.find((item) => item.id === ele.id);
