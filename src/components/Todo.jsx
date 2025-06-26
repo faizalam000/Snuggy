@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-const Example = () => {
+const Todo = () => {
   const [inputValue, setInputValue] = useState("");
   const [list, setList] = useState([{ task: "data", id: "data" }]);
   const changeValue = (e) => {
@@ -45,4 +45,4 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default Todo;

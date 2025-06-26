@@ -3,9 +3,7 @@ import List from "../Common/List";
 const Footer = () => {
   return (
     <div id="Footer" >
-      <List />
-      <List />
-      <List />
+      <h1>this is footer</h1>
     </div>
   );
 };

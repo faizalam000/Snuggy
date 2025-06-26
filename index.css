@@ -1,26 +1,157 @@
-*{
-    margin:0px;
+@import "tailwindcss";
+* {
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin-top: 100px;
+}
+
 #Navbar {
     background-color: white;
-    margin: 10px;
-   display: flex;
-   justify-content: space-between;
-   
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 7px rgba(132, 119, 119, 0.2) ;
+    
 }
-#Navbar img{
-    height: 60px;
-    width: 60px;
+
+    
+
+
+#Navbar img {
+    height: 50px;
+    width: 50px;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
 }
+
 #Navbar ul {
-display: flex;
-list-style-type: none;
+    display: flex;
+    list-style-type: none;
 
 }
-#Navbar ul li{
+
+#Navbar ul li {
     margin: 20px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Footer {
+    height: 150px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.Cardpage {
+    padding: 20px;
+}
+
+.Cardpage_img {
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+}
+
+.Cardbox_container {
+    display: flex;
+    flex-direction: column;
+}
+.Cardbox_header{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(255, 81, 0);
+}
+
+.Cardbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.Cardbox_name {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Cardbox_button:hover {
+    background-color: rgb(255, 81, 0);
+    color: white;
+}
+
+.Cardbox_button {
+    width: 60px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.toogle {
+    background-color: rgb(255, 81, 0);
+    color: white;
+}
+.Cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.Cart_Card {
+    width: 500px;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+}
+
+.Cart_Card_name {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
 }
