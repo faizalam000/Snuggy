@@ -1,5 +1,5 @@
 import React, { use } from "react";
-import emptyCart from "./cart.gif";
+import emptyCart from "../Assets/back.png";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { IoTrashBin } from "react-icons/io5";
 import {
@@ -65,7 +65,7 @@ const Cart = () => {
           Total Amount : {totalAmount} ₹
         </h2>
       </div>
-      <button ><IoTrashBin className="w-10 h-10 -mr-10"  /></button>
+      <button onClick={()=>{dispatch(clearAll())}} ><IoTrashBin className="w-10 h-10 -mr-10"  /></button>
     </>
   );
 };
