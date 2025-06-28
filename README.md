@@ -39,7 +39,7 @@
 ## 🏁 Get Started in 60 Seconds
 
 ```bash
-git clone https://github.com/yourusername/snuggy-react-parcel.git
+git clone https://github.com/faizalam000/Snuggy.git
 cd snuggy-react-parcel && npm install
 npm start
 ```
@@ -69,6 +69,84 @@ src/
 | Dynamic Filtering | Redux selectors      | Instant search response    |
 | Cart Management   | RTK createSlice      | Persistent cart state      |
 | Responsive Grid   | Tailwind grid + Flex | Flawless mobile adaptation |
+
+---
+
+## 📊 Architecture Overview
+
+### 1. Component Hierarchy
+```mermaid
+graph TD
+    A[App] --> B[Navbar]
+    A --> C[ProductGrid]
+    A --> D[CartSidebar]
+    C --> E[ProductCard]
+    D --> F[CartItem]
+    E -->|dispatch| G[Redux Store]
+    F -->|selector| G
+```
+
+### 2. Data Flow
+```mermaid
+sequenceDiagram
+    participant UI as React Components
+    participant Store as Redux Store
+    UI->>Store: dispatch(addToCart(product))
+    Store->>UI: useSelector(cartItems)
+    Store->>API: RTK Query (future)
+    API-->>Store: Products Data
+```
+
+---
+
+##   Tech Stack Deep Dive
+
+### Core Architecture
+```mermaid
+pie
+    title Bundle Composition
+    "React + Hooks" : 35
+    "Redux Toolkit" : 25
+    "Tailwind CSS" : 20
+    "Routing" : 15
+    "Utilities" : 5
+```
+
+---
+
+## 🛠️ System Design
+
+### State Management Flow
+```mermaid
+flowchart LR
+    A[Product API] --> B[Redux Slice]
+    B --> C{Store}
+    C --> D[Cart UI]
+    C --> E[Product Grid]
+    D -->|Update Quantity| C
+    E -->|Add Item| C
+```
+
+---
+
+## 🗂 Folder Structure
+```mermaid
+graph LR
+    root((src))
+    root-->components
+    root-->features
+    root-->lib
+    
+    components-->ui
+    components-->shared
+    
+    features-->cart
+    features-->products
+    
+    lib-->hooks
+    lib-->utils
+```
+
 
 ---
 
