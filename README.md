@@ -92,7 +92,8 @@ src/
 **License:** ISC © 2024 [Your Name]  
 **Support:** Buy me a ☕ [here](#)  
 
-```
+
+---
 
 ### ✨ Key Upgrades:
 1. **Value-First Headline** - Positions Snuggy as a productivity tool  
