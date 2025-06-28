@@ -3,13 +3,11 @@
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux-toolkit.js.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge)](https://opensource.org/licenses/ISC)
 
 **Build lightning-fast e-commerce apps** with this production-ready React starter. Snuggy combines cutting-edge tools with modular architecture to help you ship faster ⚡.
 
 ➡️ **[Live Demo](https://snuggy-demo.vercel.app)** | 📚 **[Documentation](#)** (coming soon)
 
-![Snuggy Dashboard Preview](https://via.placeholder.com/1500x750/1e293b/ffffff?text=Snuggy+Modern+E-commerce+Starter+with+React+Redux+and+Tailwind)
 
 ---
 
