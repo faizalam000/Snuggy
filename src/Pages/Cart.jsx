@@ -65,7 +65,13 @@ const Cart = () => {
           Total Amount : {totalAmount} ₹
         </h2>
       </div>
-      <button onClick={()=>{dispatch(clearAll())}} ><IoTrashBin className="w-10 h-10 -mr-10"  /></button>
+      <button
+        onClick={() => {
+          dispatch(clearAll());
+        }}
+      >
+        <IoTrashBin className="w-10 h-10 -mr-10" />
+      </button>
     </>
   );
 };
