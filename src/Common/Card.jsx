@@ -8,7 +8,7 @@ const Card = ({ data }) => {
   const imageStyle = {
     width: "100%",
     height: "170px",
-    borderRadius:"20px"
+    borderRadiusTop:"20px"
   };
   return (
     <div className="card" style={style}>

@@ -43,7 +43,7 @@ const CardPage = () => {
       <div className="Cardbox_container">
         {Object.entries(cardData.items).map(([category, item], i) => {
           return (
-            <div key={i}>
+            <div className="w-[500px]" key={i}>
               <div className="Cardbox_header">{category}</div>
               {item.map((ele) => {
                 const cartItemQty = cartItem.find((item) => item.id === ele.id);
