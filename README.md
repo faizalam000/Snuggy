@@ -6,8 +6,6 @@
 
 **Build lightning-fast e-commerce apps** with this production-ready React starter. Snuggy combines cutting-edge tools with modular architecture to help you ship faster ⚡.
 
-➡️ **[Live Demo](https://snuggy-demo.vercel.app)** | 📚 **[Documentation](#)** (coming soon)
-
 
 ---
 
