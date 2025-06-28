@@ -1,5 +1,5 @@
 import React, { use } from "react";
-import emptyCart from "../Assets/back.png";
+import emptyCart from "../../public/back.png";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { IoTrashBin } from "react-icons/io5";
 import {

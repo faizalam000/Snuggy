@@ -1,12 +1,14 @@
-const List = ()=>{
-    return(<>
-    <ul id="listFooter" >
+const List = () => {
+  return (
+    <>
+      <ul id="listFooter">
         <li>Company</li>
         <li>About Us</li>
         <li>Swiggy Corporate</li>
         <li>Career</li>
         <li>Team</li>
-    </ul>
-    </>)
+      </ul>
+    </>
+  );
 };
-export default List
+export default List;

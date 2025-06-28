@@ -11,7 +11,7 @@ const Body = () => {
   useEffect(() => {
     callData();
   }, []);
-  
+
   async function callData() {
     const fetchData = await fetch("http://localhost:3000/getAllData");
     const res = await fetchData.json();
