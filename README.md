@@ -94,8 +94,6 @@ src/
 
 ```
 
----
-
 ### ✨ Key Upgrades:
 1. **Value-First Headline** - Positions Snuggy as a productivity tool  
 2. **Badge Wall** - Instantly communicates tech credibility  
