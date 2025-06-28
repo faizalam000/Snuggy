@@ -15,12 +15,12 @@ const Todo = () => {
     setInputValue("");
     console.log(list);
   };
-  const deleteTodo = (id)=>{
-   setList((list)=>{
-   return list.filter((element)=>{
-    return element.id !== id
-   });
-   });
+  const deleteTodo = (id) => {
+    setList((list) => {
+      return list.filter((element) => {
+        return element.id !== id;
+      });
+    });
   };
   return (
     <>
@@ -37,7 +37,16 @@ const Todo = () => {
       <ul>
         {list.map((element, index) => {
           return (
-            <li key={element.id}>{element.task} <button onClick={(e)=>{deleteTodo(element.id)}} >delete</button></li>
+            <li key={element.id}>
+              {element.task}{" "}
+              <button
+                onClick={(e) => {
+                  deleteTodo(element.id);
+                }}
+              >
+                delete
+              </button>
+            </li>
           );
         })}
       </ul>

@@ -10,13 +10,15 @@ const Navbar = () => {
   return (
     <div id="Navbar" className="h-20 fixed top-0 left-0 w-full z-50">
       <Link to="/">
-        <div className="flex items-center" >
+        <div className="flex items-center">
           <img
             id="Logo"
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk50Ut-wJKwbca3BTPssDUl_fqnsEE_D2tcw&s"
             alt="img"
           />
-          <div className="font-extrabold text-3xl text-orange-500 " ><h1 >Snuggy</h1></div>
+          <div className="font-extrabold text-3xl text-orange-500 ">
+            <h1>Snuggy</h1>
+          </div>
         </div>
       </Link>
 
