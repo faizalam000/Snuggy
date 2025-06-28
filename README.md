@@ -1,4 +1,3 @@
-````markdown
 # 🐻 Snuggy – Modern React + Redux + Tailwind E-commerce Starter
 
 ![Snuggy Banner](https://via.placeholder.com/1200x400?text=Snuggy+-+React+Redux+Tailwind)
