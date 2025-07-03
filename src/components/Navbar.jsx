@@ -1,6 +1,8 @@
 import { FaHome } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 import { FcAbout } from "react-icons/fc";
+import { MdOutlineSupportAgent } from "react-icons/md";
+import logo from "../Assets/Logo.png";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
@@ -34,7 +36,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="Nav_list">
-          <Link to="/support">SUPPORT</Link>
+          <Link to="/support">
+            <MdOutlineSupportAgent className="w-6 h-6"/>
+          </Link>
         </li>
         <li className="Nav_list">
           <Link to="/cart" className="flex">

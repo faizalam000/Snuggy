@@ -12,7 +12,8 @@
   "description": "",
   "devDependencies": {
     "@babel/core": "^7.27.1",
-    "parcel": "^2.15.0"
+    "parcel": "^2.15.0",
+    "parcel-plugin-static-files-copy": "^2.6.0"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
