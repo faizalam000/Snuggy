@@ -1,8 +1,8 @@
 import { FaHome } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 import { FcAbout } from "react-icons/fc";
+import { MdPeopleAlt } from "react-icons/md";
 import { MdOutlineSupportAgent } from "react-icons/md";
-import logo from "../Assets/Logo.png";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
@@ -12,16 +12,16 @@ const Navbar = () => {
   return (
     <div id="Navbar" className="h-20 fixed top-0 left-0 w-full z-50">
       <Link to="/">
-        <div className="flex items-center">
+        {/* <div className="flex items-center"> */}
           <img
-            id="Logo"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk50Ut-wJKwbca3BTPssDUl_fqnsEE_D2tcw&s"
+            className="h-13 w-43"
+            src="http://localhost:3000/images/Logos.svg"
             alt="img"
           />
-          <div className="font-extrabold text-3xl text-orange-500 ">
+          {/* <div className="font-extrabold text-3xl text-orange-500 ">
             <h1>Snuggy</h1>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </Link>
 
       <ul>
@@ -32,12 +32,12 @@ const Navbar = () => {
         </li>
         <li className="Nav_list">
           <Link to="/about">
-            <FcAbout className="w-6 h-6" />
+            <MdPeopleAlt className="w-6 h-6" />
           </Link>
         </li>
         <li className="Nav_list">
           <Link to="/support">
-            <MdOutlineSupportAgent className="w-6 h-6"/>
+            <MdOutlineSupportAgent className="w-6 h-6" />
           </Link>
         </li>
         <li className="Nav_list">

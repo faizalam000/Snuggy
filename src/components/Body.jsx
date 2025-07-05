@@ -32,8 +32,14 @@ const Body = () => {
       </>
     );
   }
+
   return (
     <div id="Body">
+      <img
+        className="w-full"
+        src="http://localhost:3000/images/slider.gif"
+        alt="slider"
+      />
       <Search dataSearch={SearchFunc} />
       <div className="cards-container">
         {filteredData.map((element, index) => {

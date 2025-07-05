@@ -1,5 +1,5 @@
 import React, { use } from "react";
-import emptyCart from "../../public/back.png";
+import { useEffect } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { IoTrashBin } from "react-icons/io5";
 import {
@@ -18,10 +18,14 @@ const Cart = () => {
 
   if (!items[0]) {
     return (
-      <>
-        <img src={emptyCart} alt="cart" className="w-60 mx-auto" />
+      <div className="flex flex-col text-center items-center">
+        <img
+          src={"http://localhost:3000/images/emptycart.gif"}
+          alt="cart"
+          className="w-60 mx-auto"
+        />
         <h1 className="text-2xl mt-4 font-semibold">Your cart is empty</h1>
-      </>
+      </div>
     );
   }
   return (
